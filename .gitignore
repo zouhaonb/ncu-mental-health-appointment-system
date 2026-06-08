@@ -1,15 +1,28 @@
 # IDE
 .idea/
 *.iml
+.vscode/
+*.swp
+*.swo
 
 # Java
 target/
 *.class
 *.jar
 *.war
+*.ear
 
 # Node
 node_modules/
+dist/
+
+# Vue / Vite
+*.local
+
+# Environment
+.env
+.env.local
+.env.*.local
 
 # Redis
 dump.rdb
@@ -20,6 +33,12 @@ uploads/
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Logs
 *.log
+logs/
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
