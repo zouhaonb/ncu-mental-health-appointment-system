@@ -1,0 +1,25 @@
+# IDE
+.idea/
+*.iml
+
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+
+# Redis
+dump.rdb
+
+# Uploads (runtime user files)
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
